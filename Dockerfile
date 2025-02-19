@@ -8,4 +8,4 @@ EXPOSE 8096
 VOLUME /config /cache /media
 
 # Comando para iniciar Jellyfin
-CMD ["jellyfin", "--webdir=/usr/share/jellyfin/web"]
+CMD ["jellyfin", "--webdir=/jellyfin/jellyfin-web"]
